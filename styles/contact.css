@@ -1,0 +1,19 @@
+.contactForm {
+    width: 45%;
+    height: 5vh;
+    background-color: #f5f5f5;
+    border: solid #e1e1e1 1px;
+    margin: 0 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContactForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 60%;
+    margin-top: 1.5%;
+}

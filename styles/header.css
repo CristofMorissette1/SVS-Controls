@@ -1,0 +1,53 @@
+.Header {
+    width: 100%;
+    position: absolute;
+    opacity: 1;
+}
+
+.mainHeader {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.logoContainer {
+    width: 15%;
+}
+
+.logo {
+    width: 100%;
+    margin-left: 2%;
+    height: 15vh;
+}
+
+.link_container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.links {
+    font-weight: 500;
+    cursor: pointer;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.mainHeaderLinkText {
+    width: 60%;
+    margin: 0%;
+}
+
+.linkContainerSmall {
+    width: 15%;
+}
+
+.linkContainerSmall2 {
+    width: 17%;
+    background-color: #09aa06;
+    padding: 1% 0%;
+}
