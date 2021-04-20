@@ -1,4 +1,24 @@
-.contactForm {
+.contactPageContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactPageSideMenu {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    color: #f5f5f5;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.contactPageContainerSmall {
+    display: flex;
+}
+
+.contactFG {
     width: 45%;
     height: 5vh;
     background-color: #f5f5f5;
@@ -9,11 +29,144 @@
     align-items: center;
 }
 
-.mainContactForm {
+form {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     width: 60%;
     margin-top: 1.5%;
+}
+
+.messageGroupForm {
+    width: 92%;
+    margin-top: 2%;
+    height: 12vh;
+    background-color: #f5f5f5;
+}
+
+.contact_header {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.contactText {
+    margin-top: 0%;
+}
+
+.contactTitle {
+    width: 100%;
+    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.contact_header_title {
+    font-size: 125%;
+    font-weight: 500;
+    color: #444;
+}
+
+.contactInput {
+    border: 2px solid #DDD;
+    width: 85%;
+    height: 3vh;
+    box-shadow: 0.35em 0.35em 0.35em rgba(0,0,0,0.135);
+}
+
+.contactTextArea {
+    border: 2px solid #DDD;
+    width: 92.5%;
+    height: 10vh;
+    box-shadow: 0.35em 0.35em 0.35em rgba(0,0,0,0.135);
+}
+
+label {
+    color: #444;
+    font-weight: 500;
+}
+
+.mailIcon {
+    width: 2em;
+    height: 2em;
+}
+
+.phoneIcon {
+    width: 2em;
+    height: 2em;
+}
+
+.houseIcon {
+    width: 2em;
+    height: 2em;
+}
+
+.clockIcon {
+    width: 2em;
+    height: 2em;
+}
+
+button {
+    margin-top: 3%;
+    width: 14%;
+    height: 5vh;
+    cursor: pointer;
+    background-color: #07cdd9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .2rem solid #07cdd9;
+}
+
+.contactButtonText {
+    font-size: 200%;
+    color: #fff;
+    box-shadow: 10% rgba(0,0,0,0.135);
+}
+
+button:hover {
+    background-color: rgb(59,59,59);
+    border: rgb(59,59,59) solid 0.2rem;
+    transition: 0.5s;
+}
+
+.sideBarEmail {
+    width: 50%;
+    background-color: #2a2a69;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.sideBarPhone {
+    width: 50%;
+    background-color: #2a2a69;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.sideBarWebsite {
+    width: 50%;
+    background-color: #2a2a69;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.sideBarTime {
+    width: 50%;
+    background-color: #2a2a69;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
 }
