@@ -14,14 +14,12 @@ class Footer extends Component {
               <p className="footerContainerInfo">Phone: (403) 874-3978</p>
               <p className="footerContainerInfo">Fax: (403) 279-8299</p>
               <p className="footerContainerInfo">BAY 9, 7408 40 Street SE, Calgary, AB T2C 2L6</p>
-              <p className="footerContainerInfo">info@panelflex.ca</p>
+              <p className="footerContainerInfo">jais.sandhu@svscontrols.com</p>
           </div>
           <div className="footerContainer">
               <h3 className="footerContainerTitle">Directory</h3>
               <hr className="footerContainerTitleBorder"/>
               <a className="footerContainerInfo" href="/"><b>Home →</b></a>
-              <a className="footerContainerInfo" href="/products"><b>Products → </b></a>
-              <a className="footerContainerInfo" href="/amc"><b>Discover PFX → </b></a>
               <a className="footerContainerInfo" href="/contact"><b>Contact →</b></a>
           </div>
           <div className="footerIcons">
