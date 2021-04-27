@@ -23,7 +23,6 @@ class Footer extends Component {
               <a className="footerContainerInfo" href="/contact"><b>Contact →</b></a>
           </div>
           <div className="footerIcons">
-            <a className="icon" href=""><FaFacebookF/></a>
             <a className="icon" href=""><FaInstagramSquare/></a>
             <a className="icon" href=""><FaLinkedin/></a>
           </div>
