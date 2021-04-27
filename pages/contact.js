@@ -50,7 +50,7 @@ class Contact extends Component {
               <div className="sideBarEmail">
                   <FaMailBulk className="mailIcon"/>
                   <p className="contactText">Email us</p>
-                  <p className="contactText">jais.sandhu@svscontrols.com</p>
+                  <p className="contactText">info@svscontrols.com </p>
               </div>
               <div className="sideBarWebsite">
                   <FaHome className="houseIcon"/>

@@ -8,36 +8,7 @@ import axios from 'axios'
 class Home extends Component {
   constructor(props){
     super(props)
-    this.state = {
-      firstName: '',
-      phone: '',
-      email: '',
-      file: '',
-      job: ''
-    }
-    this.handleChange = this.handleChange.bind(this);
-    this.handleSumbit = this.handleSumbit.bind(this);
-  }
 
-  handleChange = e => {
-    this.setState({
-      [e.target.name]: e.target.value
-    })
-  }
-
-  handleSumbit(e) {
-    e.preventDefault();
-
-    const { firstName, phone, email, file, job} = this.state;
-
-    const form = axios.post('http://localhost:3001/api/form', {
-      firstName,
-      phone,
-      email,
-      file,
-      job
-    })
-    e.target.reset();
   }
 
   render() {
@@ -82,44 +53,7 @@ class Home extends Component {
           <h2 className="careersMainTitle">Careers</h2>
           <p className="careersMainText">Spring Valley Solutions is looking for eager, talented professionals to join our team. We pride ourselves on providing the highest quality of service to our clients, as well as remaining environmentally responsible and safety conscious. Our success and growth is a direct result of our people.<br/><br/> If you feel that you can contribute your skills, experience and professionalism to our team, please submit your information below and we will be in contact. We thank all applicants for their interest in Blue Ridge Excavating.</p>
           <h2 className="careersTitleSmall">Apply</h2>
-          <Form className="mainHomeForm" onSubmit={this.handleSumbit}>
-              <FormGroup className="homeForm">
-                <Input 
-                  type="text"
-                  name="firstName" 
-                  placeholder="Full Name"
-                  onChange={this.handleChange} />
-              </FormGroup>
-              <FormGroup className="homeForm">
-                <Input 
-                  type="select"
-                  name="job"
-                  placeholder="Email Address"
-                  onChange={this.handleChange}>
-                    <option>-</option>
-                    <option>Automation Technologist</option>
-                </Input>
-              </FormGroup>
-              <FormGroup className="homeForm">
-                <Input 
-                  type="phone"
-                  name="phone"
-                  placeholder="Phone Number"
-                  onChange={this.handleChange} />
-              </FormGroup>
-              <FormGroup className="homeForm">
-                <Input 
-                  type="email"
-                  name="email"
-                  placeholder="Email Address"
-                  onChange={this.handleChange} />
-              </FormGroup>
-              <FormGroup className="homeForm">
-                <Label for="exampleFile">File</Label>
-                <Input type="file" name="file" id="exampleFile" />
-            </FormGroup>
-              <Button className="contactButton"><p className="contactButtonText">Submit</p></Button>
-            </Form>
+          <p>To apply please send your resume and any supporting documents too <b>careers@svscontrols.com</b></p>
         </div>
         <Footer/>
       </div>
