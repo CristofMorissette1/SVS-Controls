@@ -11,9 +11,10 @@ class Footer extends Component {
           <div className="footerContainer">
               <h3 className="footerContainerTitle">Keep In Touch</h3>
               <hr className="footerContainerTitleBorder"/>
+              <p className="footerContainerInfo">Jais Sandhu, Office Manager</p>
               <p className="footerContainerInfo">Phone: 403-361-5041</p>
-              <p className="footerContainerInfo">421 7th Ave SW, 30th floor Calgary,AB T2P 4K9</p>
               <p className="footerContainerInfo">jais.sandhu@svscontrols.com</p>
+              <p className="footerContainerInfo">421 7th Ave SW, 30th floor Calgary,AB T2P 4K9</p>
           </div>
           <div className="footerContainer">
               <h3 className="footerContainerTitle">Directory</h3>

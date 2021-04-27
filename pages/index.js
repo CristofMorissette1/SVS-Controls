@@ -53,7 +53,7 @@ class Home extends Component {
           <h2 className="careersMainTitle">Careers</h2>
           <p className="careersMainText">Spring Valley Solutions is looking for eager, talented professionals to join our team. We pride ourselves on providing the highest quality of service to our clients, as well as remaining environmentally responsible and safety conscious. Our success and growth is a direct result of our people.<br/><br/> If you feel that you can contribute your skills, experience and professionalism to our team, please submit your information below and we will be in contact. We thank all applicants for their interest in Blue Ridge Excavating.</p>
           <h2 className="careersTitleSmall">Apply</h2>
-          <p>To apply please send your resume and any supporting documents too <b>careers@svscontrols.com</b></p>
+          <p>If you're interested in joining our team please send your resume and any supporting documents to <b>careers@svscontrols.com</b></p>
         </div>
         <Footer/>
       </div>
