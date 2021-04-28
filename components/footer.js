@@ -24,7 +24,7 @@ class Footer extends Component {
           </div>
           <div className="footerIcons">
             <a className="icon" href=""><FaInstagramSquare/></a>
-            <a className="icon" href=""><FaLinkedin/></a>
+            <a className="icon" href="https://www.linkedin.com/company/spring-valley-solutions/mycompany/?viewAsMember=true" target="_blank"><FaLinkedin/></a>
           </div>
       </div>
     )
