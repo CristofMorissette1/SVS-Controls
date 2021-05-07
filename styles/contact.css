@@ -173,3 +173,75 @@ button:hover {
     justify-content: center;
     padding-top: 5%;
 }
+
+@media only screen and (max-width: 1060px) {
+    .sideBarEmail {
+        width: 75%
+    }
+
+    .sideBarWebsite {
+        width: 75%;
+    }
+
+    .sideBarTime {
+        width: 75%;
+    }
+
+    .contactButton {
+        margin-bottom: 2%;
+    }
+}
+
+@media only screen and (max-width: 716px) {
+    .contactPageSideMenu {
+        align-items: flex-start;
+        margin-bottom: 0%;
+        margin-top: 4%;
+    }
+
+    .sideBarEmail {
+        width: 95%
+    }
+
+    .sideBarWebsite {
+        width: 95%;
+    }
+
+    .sideBarTime {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .contactPageContainerSmall {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contactPageSideMenu {
+        width: 85%;
+    }
+
+    form {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    .contactImage {
+        height: 15vh;
+    }
+
+    form {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .contactFG {
+        width: 92%;
+    }
+
+    .contactButtonText {
+        font-size: 125%;
+    }
+}

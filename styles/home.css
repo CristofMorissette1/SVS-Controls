@@ -214,3 +214,126 @@
     color: #fff;
     border: .2rem solid #001b3a;
 }
+
+@media only screen and (max-width: 1400px) {
+    .homeTitleSmall{
+        margin-top: 20%;
+    }
+}
+
+@media only screen and (max-width: 1030px) {
+    .homeTitleSmall {
+        margin-top: 24%;
+        font-size: 120%;
+    }
+
+    .logo {
+        height: 16vh;
+        width: 170%;
+    }
+}
+
+@media only screen and (max-width: 910px) {
+    .homeBodyContainer {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 817px) {
+    .homeMainTitle {
+        font-size: 175%;
+    }
+
+    .mainHeaderLinkText {
+        width: 100%;
+        padding-left: 5%;
+    }
+
+    .homeLandingImage {
+        height: 35vh;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .homeCapabilitiesContainer2 {
+        display: none;
+    }
+
+    .homeCapabilitiesContainer3 {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .homeTitleSmall {
+        margin-top: 28%;
+        font-size: 100%;
+    }
+
+    .homeMainTitle {
+        font-size: 145%;
+    }
+
+    .mainHeaderLinkText {
+        font-size: 80%;
+    }
+
+    .logo {
+        height: 10vh;
+        width: 170%;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .homeBodyContainer {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 465px) {
+    .homeMainTitle {
+        font-size: 125%;
+        margin-top: -13%;
+    }
+
+    .linkContainerSmall2 {
+        width: 23%;
+    }
+
+    .homeTitleSmall {
+        margin-top: 38%;
+    }
+
+    .linkContainerSmall{
+        margin-right: 15%;
+    }
+
+    .homeBodyContainer {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .homeBodyContainerSmall {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 328px) {
+    .homeMainTitle {
+        font-size: 100%;
+        margin-top: -35%;
+    }
+
+    .homeTitleSmall {
+        font-size: 80%;
+    }
+
+    .linkContainerSmall2 {
+        width: 30%;
+    }
+
+    .homeCapabilitiesContainer3 {
+        width: 95%;
+    }
+}

@@ -44,7 +44,7 @@ class Contact extends Component {
     return (
       <div className="contactPageContainer">
         <Header/>
-        <img src="https://firebasestorage.googleapis.com/v0/b/breton-excavation.appspot.com/o/contact%20us%2Fcontactus.webp?alt=media&token=1e777912-e71a-4ac2-8eae-584faaa0446f"></img>
+        <img className="contactImage" src="https://firebasestorage.googleapis.com/v0/b/breton-excavation.appspot.com/o/contact%20us%2Fcontactus.webp?alt=media&token=1e777912-e71a-4ac2-8eae-584faaa0446f"></img>
         <div className="contactPageContainerSmall">
           <div className="contactPageSideMenu">
               <div className="sideBarEmail">
