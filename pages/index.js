@@ -40,12 +40,9 @@ class Home extends Component {
           </div>
         </div>
         <div className="homeMainCapabilitiesContainer">
-          <div className="homeCapabilitiesContainer2">
-            <h2 className="homeCapabilitiesContainerTitle">Our History</h2>
-            <p className="homeCapabilitiesText">We serve as your automation building partner from concept to completion, solving tough automation control challenges and helping businesses grow.</p>
-          </div>
+         
           <div className="homeCapabilitiesContainer3">
-            <h2 className="homeCapabilitiesTitle">BUILT-TO-LAST</h2>
+            <h2 className="homeCapabilitiesTitle">Our History</h2>
             <p className="homeCapabilitiesTextSmall">Spring Valley Solutions was founded in 2001 by Dana Moffit after learning Automation and Control System Design at a large full-service integration firm. <br/><br/>We serve as your automation building partner from concept to completion, solving tough automation control challenges and helping businesses grow.<br/><br/> We have provided services to some of North America’s largest companies thanks to our extensive experience with Siemens PLC, HMI and drive systems as well as those provided by other major manufacturers.</p>
           </div>
         </div>
